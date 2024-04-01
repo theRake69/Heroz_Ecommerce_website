@@ -1,0 +1,26 @@
+.main_container {
+  position: absolute;
+  bottom: 0;
+  background-color: #4b4e55b6;
+  z-index: 99999999;
+  margin-left: 35%;
+  margin-bottom: 5rem;
+  padding: 0.5rem;
+  border-radius: 2rem;
+}
+.main_container_items {
+  display: flex;
+  gap: 0.4rem;
+  padding: 0.2rem;
+}
+.main_container_items_item {
+  background-color: #b6bdc1;
+  padding: 0.9rem;
+  border-radius: 2rem;
+  color: var(--main-color);
+  cursor: pointer;
+  transition: 0.1s all ease-in;
+}
+.main_container_items_item:hover {
+  color: black;
+}

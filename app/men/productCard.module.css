@@ -1,0 +1,28 @@
+.body {
+  background-color: #dfe3e7;
+  height: 100vh;
+  width: 100vw;
+}
+.main_container {
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.main_container_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+.main_container_box img:hover {
+  scale: 1.02;
+}
+.main_container_box img {
+  width: 20rem;
+  height: 20rem;
+  object-fit: cover;
+  border-radius: 0.3rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.1s ease-in;
+}

@@ -1,0 +1,15 @@
+:root {
+  --main-bg: #b6bdc1;
+  --main-color: #4b4e55;
+  --second-color: #dfe3e7;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--main-bg);
+  height: 100vh;
+  width: 100vw;
+}
